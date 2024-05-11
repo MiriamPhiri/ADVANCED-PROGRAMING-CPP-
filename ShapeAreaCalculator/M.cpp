@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
-#include "Square.h"
-#include "Triangle.h"
-#include "Circle.h"
-#include "Area.h"
+#include "S.h"
+#include "Tri.h"
+#include "Cir.h"
+#include "A.h"
 
 using namespace std;
 using namespace shapes;
