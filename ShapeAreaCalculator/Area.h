@@ -1,9 +1,9 @@
 #ifndef AREA_H
 #define AREA_H
 
-#include "Squa.h"
-#include "Tri.h"
-#include "Cir.h"
+#include "Square.h"
+#include "Triangle.h"
+#include "Circle.h"
 
 namespace shapes {
     class Area {
