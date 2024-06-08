@@ -1,25 +1,32 @@
-#pragma once
+# pragma once
 
-#include <iostream>
+#include<iostream>
+
 using namespace std;
 
-class box {
-public:
+class Box {
 
-    box();
+    public:
+      Box();
 
-    box (const double newLength, const double newBreadth, const double newHeight);
-    ~box();
-    double GetVolume();
-    void SetLength(double len);
-    void SetBreadth(double bre);
-    void SetHeight(double hei);
-    //overload + operator to add two Box objects.
-    box operator+(const box& b);
+      Box(const double newlength, const double newBreadth, const double newHeight);
+      // destructor
+      ~Box();
+      // accessor methods
+       double GetVolume();
 
-private:
-    double length;   //length of a box
-    double breadth;  // breadth of a box
-    double height;   // height of a box
+       void SetLength(double len);
+
+       void SetBreadth(double bre);
+
+       void SetHeight(double hei);
+
+       // overload + operator to add two Box objects
+       Box operator+(const Box& b);
+
+    private:
+       double length;  // length of a box
+       double breadth; // breadth of a box
+       double height;  // height of a box
 
 };
